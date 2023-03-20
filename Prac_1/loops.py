@@ -8,7 +8,7 @@ while num > 0:
    num=num-1
 print(num,end='\r')
 print('c')
-num_starts = int (input('number of stars :'))
+num_starts = int (input('number of stars :' ))
 for output in  range (num_starts):
     print("*",end= "")
 print('\n','d.')
