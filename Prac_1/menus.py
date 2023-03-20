@@ -6,7 +6,7 @@ while choice != "Q":
      if choice == "H":
         print(f"Hello {name}")
         print(MENU)
-        choice = input("Choose: ").upper()
+        choice = input("Choose: " ).upper()
      elif choice == "G":
            print(f"Goodbye {name}")
            print(MENU)
